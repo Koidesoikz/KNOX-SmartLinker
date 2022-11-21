@@ -9,7 +9,10 @@ Tool that links an ontologys classes to a fitting definition from DBPedia. This 
 Running the tool: <br>
 `SmartLinker.py INPUT_PATH`
 
-Here `INPUT_PATH` is the path to the ontology file you want to link.<br><br>
+Here `INPUT_PATH` is the path to the ontology file you want to link.
+
+When the tool has run, a new file titled `Linked_'INPUT_PATH'` will be created next to the original file. This is the linked ontology.
+<br><br>
 
 **IMPORTANT:**<br>
 Make sure the input ontology has a **newline** between the class definition and the rdf:type. <br>
